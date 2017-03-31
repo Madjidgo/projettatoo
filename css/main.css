@@ -126,19 +126,19 @@ img{
 
     font-family: 'Passion One', cursive;
     font-family: 'Alfa Slab One', cursive;
-} 
-  
+}
+
 header{
    background: url("../images/imgback.jpg")  fixed;
    width: 100%;
-   height: 100vh; 
+   height: 100vh;
     background-size: 100% 100%;
-    
+
 }
 header p {
     text-align: center;
    margin:45%;
-   
+
 }
 header i{
     width: 1%;
@@ -148,7 +148,7 @@ header i{
 
 
 /*  star container*/
-section h1{ 
+section h1{
     width: 100%;
     text-align: center;
     font-size: 1.875em;
@@ -159,17 +159,82 @@ section p{
     font-style: italic;
 }
 
-section img{
-    width: 500px;
+section figure{
+    width: 100%;
+    margin: 0;
+  }
+  article img{
+    width: 100%;
     height: 300px;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* IE 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 2s ease;
+  }
+
+   article figure{
+    overflow: hidden;
+  }
+
+  article img:hover{
+    transform:scale(1.25);
+-ms-transform:scale(1.25); /* IE 9 */
+-moz-transform:scale(1.25); /* Firefox */
+-webkit-transform:scale(1.25); /* Safari and Chrome */
+-o-transform:scale(1.25);
+  }
+
+  article{
+    width: 30%;
+  }
+
+.photo123, .photo456{
+    margin: auto 5%;
+    display: flex;
+    justify-content: space-between;
+}
+/* end section*/
+
+/* star footer*/
+.foot{
+  display: flex;
+}
+
+footer nav h4{
+  font-style: oblique;
+}
+footer img{
+  width: 50px;
+  height: 50px;
 
 }
-.photo123,.photo456{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    
+footer  figure img{
+  width: 30%;
+  height: 30%;
+  background-color: red;
 }
+footer ul{
+  list-style: none;
+  background-color: pink;
+  width: 10%;
+}
+
+footer input{
+  display: block;
+  width: 90%;
+
+}
+footer form{
+  border: 1px solid black;
+  background-color: grey;
+  width: 15%;
+}
+#imgfooter{
+  width: 30%;
+  background-color: red;
+}
+
 
 
 
