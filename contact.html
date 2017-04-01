@@ -26,7 +26,7 @@
                   <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="catalogue.html">Catalogue </a></li>
-                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="blg.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </li>
@@ -39,7 +39,7 @@
               <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="catalogue.html">Catalogue</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blg.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
@@ -56,6 +56,46 @@
           <section>
 
             <h1>SimplonTaToo</h1>
+
+            <form action="traitement.php" method="post">
+              <label for="text" >Enter first Name:</label>
+              <input type="text" name="text" id="text" placeholder="first-Name"">
+            </form>
+
+             <form action="traitement.php" method="post">
+              <label for="text" >Enter Second Name:</label>
+              <input type="text" name="text" id="text" placeholder="second-name">
+            </form>
+
+             <form action="traitement.php" method="post">
+              <label for="mail" >Enter the Email:</label>
+              <input type="mail" name="mail" id="mail" placeholder="email">
+            </form>
+
+            <form action="traitement.php" method="post">
+              <label for="mail" >Confirmet the Email:</label>
+              <input type="mail" name="mail" id="mail" placeholder="email">
+            </form>
+
+            <form action="traitement.php" method="post">
+            <label for="text">Disponibilities</label>
+            <select name="Disponibility"> 
+              <option value="Monday" selected="Disponibility">Monday</option>
+              <option value="thuesday">Thuesday</option>
+              <option value="wednesday">Wednesday</option>
+              <option value="thurstday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+
+            <select name="am">
+            <option value="morning" selected="am">am</option>
+            <option value="pm">pm</option>
+            <option value="evening"></option>
+            </select>
+
+            
+            </form>
+
 
        
 
