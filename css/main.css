@@ -112,7 +112,7 @@ footer p{
   header{
      background: url("../images/imgback.jpg")  fixed;
      width: 100%;
-     height: 10vh;
+     height: 100vh;
       background-size: cover;
   }
 
@@ -124,7 +124,7 @@ figure{
 @media(min-width: 768px) {
   
 }
- .nav1,header p{
+ .nav1/*,header p*/{
     display: none;
   }
 h1{
@@ -205,16 +205,16 @@ width: 30%;
 
 
 
-/*Tablette*/
+/*pc*/
 
 @media (min-width:1024px){
 .navmobilefirst{
   display: none;
 
 }
-header p{
+/*header p{
   width: 100%;
-}
+}*/
 
 footer p{
   display: block;
@@ -253,7 +253,7 @@ header{
 }
 header p {
     text-align: center;
-   margin:45%;
+   margin:40%;
 
 }
 header i{
@@ -338,7 +338,7 @@ color:white;
 }
 
 #img1footer img{
-width: 30%;
+width: 10%;
 }
 }
 /*tablette*/
