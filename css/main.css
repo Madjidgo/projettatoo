@@ -112,6 +112,14 @@ h1,p,h4{
   text-align: center;
 }
 
+.container{
+ /* border: 1px solid black;*/
+  width: 100%;
+  /*background-color: black;
+  color:#fff;
+  padding: 1%;*/
+}
+
 
   header{
      background: url("../images/imgback.jpg")  fixed;
@@ -124,12 +132,9 @@ figure{
   width: 100%;
 }
 
-.container{
-  border: 1px solid black;
-  width: 30%;
-  background-color: black;
-  color:#fff;
 
+label{
+  width: 1%;
 }
 
 #img1footer{
@@ -406,6 +411,13 @@ footer p{
 width: 50%;
 text-align: center;
 color:white;
+}
+.container{
+  border: 1px solid black;
+  width: 30%;
+  background-color: black;
+  color:#fff;
+  padding: 1%;
 }
 }
 
